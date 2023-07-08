@@ -52,3 +52,4 @@ def create_class(i):
 def view_classes():
     list[]
     with bank:
+        cur = bank.cursor()
