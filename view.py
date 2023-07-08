@@ -58,3 +58,4 @@ def view_classes():
 
         for i in row:
             list.append(i)
+    return list
