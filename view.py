@@ -68,3 +68,4 @@ def update_classes(i):
 
 def delete_classes(i):
     with bank:
+        cur = bank.cursor()
