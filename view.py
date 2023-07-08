@@ -50,3 +50,4 @@ def create_class(i):
         cur.execute(query, i)
 
 def view_classes():
+    list[]
