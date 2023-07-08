@@ -55,3 +55,5 @@ def view_classes():
         cur = bank.cursor()
         cur.execute("SELECT * FROM Classes")
         row = cur.fetchall()
+
+        for i in row:
