@@ -45,3 +45,4 @@ delete_course([1])
 
 def create_class(i):
     with bank:
+        cur = bank.cursor()
