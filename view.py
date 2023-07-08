@@ -57,3 +57,4 @@ def view_classes():
         row = cur.fetchall()
 
         for i in row:
+            list.append(i)
