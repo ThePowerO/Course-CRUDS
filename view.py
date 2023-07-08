@@ -42,3 +42,5 @@ def delete_course(i):
         cur.execute(query, i)
 
 delete_course([1])
+
+def create_class(i):
