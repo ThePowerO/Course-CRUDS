@@ -50,7 +50,7 @@ def create_class(i):
         cur.execute(query, i)
 
 def view_classes():
-    list[]
+    list = []
     with bank:
         cur = bank.cursor()
         cur.execute("SELECT * FROM Classes")
