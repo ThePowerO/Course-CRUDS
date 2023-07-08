@@ -44,3 +44,4 @@ def delete_course(i):
 delete_course([1])
 
 def create_class(i):
+    with bank:
