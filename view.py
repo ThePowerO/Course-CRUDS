@@ -70,3 +70,4 @@ def delete_classes(i):
     with bank:
         cur = bank.cursor()
         query = "DELETE FROM Classes WHERE id=?"
+        cur.execute(query, i)
