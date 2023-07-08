@@ -63,3 +63,4 @@ def view_classes():
 def update_classes(i):
     with bank:
         cur = bank.cursor()
+        query = "UPDATE Classes SET name=?, course_name=?, start_date=? WHERE id=?"
