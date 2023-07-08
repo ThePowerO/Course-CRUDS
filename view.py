@@ -53,3 +53,4 @@ def view_classes():
     list[]
     with bank:
         cur = bank.cursor()
+        query = "SELECT * FROM Classes"
