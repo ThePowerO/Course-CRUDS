@@ -96,3 +96,5 @@ def update_étudiants(i):
         cur = bank.cursor()
         query = "UPDATE Classes SET nom=?, email=?, téléphone=?, genre=?, image=?, date_naissance=?, cpf=?, class_nom=? WHERE id=?"
         cur.execute(query, i)
+
+def supprimer_étudiants(i):
