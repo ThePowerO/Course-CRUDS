@@ -16,7 +16,7 @@ try:
         )""")
         print("La table des courses a été créée.")
 
-except sqlite3.Error as erro:
+except sqlite3.Error as erreur:
     print("Table creation went wrong: ", erreur)
 
 try:
