@@ -39,7 +39,7 @@ try:
         cur.execute(""" CREATE TABLE IF NOT EXISTS étudiants(id INTEGER PRIMARY KEY AUTOINCREMENT,
         nom TEXT,
         email TEXT,
-        phone TEXT,
+        téléphone TEXT,
         gender TEXT,
         image TEXT
         birth_date DATE,
