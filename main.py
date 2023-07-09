@@ -36,7 +36,7 @@ except sqlite3.Error as erro:
 try:
     with bank:
         cur = bank.cursor()
-        cur.execute(""" CREATE TABLE IF NOT EXISTS students(id INTEGER PRIMARY KEY AUTOINCREMENT,
+        cur.execute(""" CREATE TABLE IF NOT EXISTS étudiants(id INTEGER PRIMARY KEY AUTOINCREMENT,
         nom TEXT,
         email TEXT,
         phone TEXT,
