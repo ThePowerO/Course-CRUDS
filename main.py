@@ -24,7 +24,7 @@ try:
         cur = bank.cursor()
         cur.execute(""" CREATE TABLE IF NOT EXISTS classes(id INTEGER PRIMARY KEY AUTOINCREMENT,
         nom TEXT,
-        course_name TEXT,
+        cours_nom TEXT,
         start_date DATE,
         FOREIGN KEY (course_name) REFERENCES courses (name) ON UPDATE CASCADE ON DELETE CASCADE
         )""")
