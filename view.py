@@ -85,4 +85,4 @@ def voir_étudiants():
     with bank:
         cur = bank.cursor()
         cur.execute("SELECT * FROM étudiants")
-
+        ligne = cur.fetchall()
