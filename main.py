@@ -40,7 +40,7 @@ try:
         nom TEXT,
         email TEXT,
         téléphone TEXT,
-        gender TEXT,
+        genre TEXT,
         image TEXT
         birth_date DATE,
         cpf TEXT,
