@@ -98,3 +98,4 @@ def update_étudiants(i):
         cur.execute(query, i)
 
 def supprimer_étudiants(i):
+    with bank:
