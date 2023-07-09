@@ -42,7 +42,7 @@ try:
         téléphone TEXT,
         genre TEXT,
         image TEXT
-        birth_date DATE,
+        date_naissance DATE,
         cpf TEXT,
         class_name TEXT,
         FOREIGN KEY (class_name) REFERENCES classes (name) ON DELETE CASCADE
