@@ -66,7 +66,7 @@ def update_classes(i):
         query = "UPDATE Classes SET name=?, course_name=?, start_date=? WHERE id=?"
         cur.execute(query, i)
 
-def delete_classes(i):
+def supprimer_classes(i):
     with bank:
         cur = bank.cursor()
         query = "DELETE FROM Classes WHERE id=?"
