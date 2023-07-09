@@ -63,7 +63,7 @@ def voir_classes():
 def update_classes(i):
     with bank:
         cur = bank.cursor()
-        query = "UPDATE Classes SET name=?, course_name=?, start_date=? WHERE id=?"
+        query = "UPDATE Classes SET nom=?, cours_nom=?, date_initiale=? WHERE id=?"
         cur.execute(query, i)
 
 def supprimer_classes(i):
