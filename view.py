@@ -9,7 +9,7 @@ except sqlite3.Error as error:
 def create_course(i):
     with bank:
         cur = bank.cursor()
-        query = "INSERT INTO Courses (name, duration, price) VALUES (?,?,?)"
+        query = "INSERT INTO Courses (nom, durée, prix) VALUES (?,?,?)"
         cur.execute(query, i)
 
 #create_course(["Python", "2 Weeks", 50])
