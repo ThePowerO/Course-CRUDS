@@ -88,3 +88,4 @@ def voir_étudiants():
         ligne = cur.fetchall()
 
         for i in ligne:
+            list.append(i)
