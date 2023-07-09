@@ -35,7 +35,7 @@ def update_course(i):
 i = ["Python", "1 Month", 50, 1]
 #update_course(i)
 
-def delete_course(i):
+def supprimer_course(i):
     with bank:
         cur = bank.cursor()
         query = "DELETE FROM Courses WHERE id=?"
