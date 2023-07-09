@@ -84,3 +84,5 @@ def voir_étudiants():
     list =  []
     with bank:
         cur = bank.cursor()
+        cur.execute("SELECT * FROM étudiants")
+
