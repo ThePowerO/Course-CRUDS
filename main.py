@@ -49,5 +49,5 @@ try:
         )""")
         print("La table des étudiants a été créée.")
 
-except sqlite3.Error as erro:
+except sqlite3.Error as erreur:
     print("La création de la table a mal tourné: ", erro)
