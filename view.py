@@ -13,7 +13,7 @@ def créer_course(i):
         cur.execute(query, i)
 
 #create_course(["Python", "2 Weeks", 50])
-def view_courses():
+def voir_courses():
     list = []
     with bank:
         cur = bank.cursor()
