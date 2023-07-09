@@ -6,7 +6,7 @@ try:
 except sqlite3.Error as error:
     print("Something went wrong: ", error)
 
-def create_course(i):
+def créer_course(i):
     with bank:
         cur = bank.cursor()
         query = "INSERT INTO Courses (nom, durée, prix) VALUES (?,?,?)"
