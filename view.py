@@ -56,7 +56,7 @@ def voir_classes():
         cur.execute("SELECT * FROM Classes")
         row = cur.fetchall()
 
-        for i in row:
+        for i in ligne:
             list.append(i)
     return list
 
