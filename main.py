@@ -45,7 +45,7 @@ try:
         date_naissance DATE,
         cpf TEXT,
         class_nom TEXT,
-        FOREIGN KEY (class_name) REFERENCES classes (name) ON DELETE CASCADE
+        FOREIGN KEY (class_nom) REFERENCES classes (nom) ON DELETE CASCADE
         )""")
         print("Students table has been created.")
 
