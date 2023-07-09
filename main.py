@@ -47,7 +47,7 @@ try:
         class_nom TEXT,
         FOREIGN KEY (class_nom) REFERENCES classes (nom) ON DELETE CASCADE
         )""")
-        print("Students table has been created.")
+        print("La table des étudiants a été créée.")
 
 except sqlite3.Error as erro:
     print("La création de la table a mal tourné: ", erro)
