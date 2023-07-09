@@ -92,3 +92,4 @@ def voir_étudiants():
     return list
 
 def update_étudiants(i):
+    with bank:
