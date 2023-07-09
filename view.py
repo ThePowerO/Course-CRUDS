@@ -29,7 +29,7 @@ print(view_courses())
 def update_course(i):
     with bank:
         cur = bank.cursor()
-        query = "UPDATE Courses SET name=?, duration=?, price=? WHERE id=?"
+        query = "UPDATE Courses SET nom=?, durée=?, prix=? WHERE id=?"
         cur.execute(query, i)
 
 i = ["Python", "1 Month", 50, 1]
