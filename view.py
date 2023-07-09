@@ -101,3 +101,4 @@ def supprimer_étudiants(i):
     with bank:
         cur = bank.cursor()
         query = "DELETE FROM Étudiants WHERE id=?"
+        cur.execute(query, i)
