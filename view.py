@@ -76,3 +76,4 @@ def supprimer_classes(i):
 
 def crée_étudiants(i):
     with bank:
+        cur = bank.cursor()
