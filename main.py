@@ -17,7 +17,7 @@ try:
         print("La table des courses a été créée.")
 
 except sqlite3.Error as erro:
-    print("Table creation went wrong: ", erro)
+    print("Table creation went wrong: ", erreur)
 
 try:
     with bank:
