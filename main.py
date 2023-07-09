@@ -25,7 +25,7 @@ try:
         cur.execute(""" CREATE TABLE IF NOT EXISTS classes(id INTEGER PRIMARY KEY AUTOINCREMENT,
         nom TEXT,
         cours_nom TEXT,
-        start_date DATE,
+        date_initiale DATE,
         FOREIGN KEY (course_name) REFERENCES courses (name) ON UPDATE CASCADE ON DELETE CASCADE
         )""")
         print("Classes table has been created.")
