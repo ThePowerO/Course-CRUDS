@@ -31,7 +31,7 @@ try:
         print("Classes table has been created.")
 
 except sqlite3.Error as erro:
-    print("Table creation went wrong: ", erro)
+    print("La création de la table a mal tourné: ", erro)
 
 try:
     with bank:
