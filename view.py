@@ -81,3 +81,4 @@ def crée_étudiants(i):
         cur.execute(query, i)
 
 def voir_étudiants():
+    list =  []
