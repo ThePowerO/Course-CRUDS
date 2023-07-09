@@ -14,7 +14,7 @@ try:
         durée TEXT,
         prix REAL
         )""")
-        print("Courses table has been created.")
+        print("La table des courses a été créée.")
 
 except sqlite3.Error as erro:
     print("Table creation went wrong: ", erro)
