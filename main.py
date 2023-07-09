@@ -26,7 +26,7 @@ try:
         nom TEXT,
         cours_nom TEXT,
         date_initiale DATE,
-        FOREIGN KEY (course_name) REFERENCES courses (name) ON UPDATE CASCADE ON DELETE CASCADE
+        FOREIGN KEY (cours_nom) REFERENCES courses (nom) ON UPDATE CASCADE ON DELETE CASCADE
         )""")
         print("Classes table has been created.")
 
