@@ -20,7 +20,7 @@ def voir_courses():
         cur.execute("SELECT * FROM Courses")
         ligne = cur.fetchall()
 
-        for i in row:
+        for i in ligne:
             list.append(i)
     return list
 
