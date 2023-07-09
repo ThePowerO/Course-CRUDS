@@ -82,3 +82,4 @@ def crée_étudiants(i):
 
 def voir_étudiants():
     list =  []
+    with bank:
