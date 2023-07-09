@@ -12,7 +12,7 @@ def créer_course(i):
         query = "INSERT INTO Courses (nom, durée, prix) VALUES (?,?,?)"
         cur.execute(query, i)
 
-#create_course(["Python", "2 Weeks", 50])
+#créer_course(["Python", "2 Weeks", 50])
 def voir_courses():
     list = []
     with bank:
