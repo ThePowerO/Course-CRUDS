@@ -54,7 +54,7 @@ def voir_classes():
     with bank:
         cur = bank.cursor()
         cur.execute("SELECT * FROM Classes")
-        row = cur.fetchall()
+        ligne = cur.fetchall()
 
         for i in ligne:
             list.append(i)
