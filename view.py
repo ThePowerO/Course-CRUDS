@@ -49,7 +49,7 @@ def créer_class(i):
         query = "INSERT INTO Classes (name, course_name, start_date) VALUES (?,?,?)"
         cur.execute(query, i)
 
-def view_classes():
+def voir_classes():
     list = []
     with bank:
         cur = bank.cursor()
