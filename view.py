@@ -89,3 +89,4 @@ def voir_étudiants():
 
         for i in ligne:
             list.append(i)
+    return list
