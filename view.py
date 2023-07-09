@@ -43,7 +43,7 @@ def supprimer_course(i):
 
 supprimer_course([1])
 
-def create_class(i):
+def créer_class(i):
     with bank:
         cur = bank.cursor()
         query = "INSERT INTO Classes (name, course_name, start_date) VALUES (?,?,?)"
