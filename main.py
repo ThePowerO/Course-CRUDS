@@ -37,7 +37,7 @@ try:
     with bank:
         cur = bank.cursor()
         cur.execute(""" CREATE TABLE IF NOT EXISTS students(id INTEGER PRIMARY KEY AUTOINCREMENT,
-        name TEXT,
+        nom TEXT,
         email TEXT,
         phone TEXT,
         gender TEXT,
