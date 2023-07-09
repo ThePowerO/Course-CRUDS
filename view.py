@@ -18,7 +18,7 @@ def voir_courses():
     with bank:
         cur = bank.cursor()
         cur.execute("SELECT * FROM Courses")
-        row = cur.fetchall()
+        ligne = cur.fetchall()
 
         for i in row:
             list.append(i)
