@@ -28,7 +28,7 @@ try:
         date_initiale DATE,
         FOREIGN KEY (cours_nom) REFERENCES courses (nom) ON UPDATE CASCADE ON DELETE CASCADE
         )""")
-        print("Classes table has been created.")
+        print("La table des classes a été créée.")
 
 except sqlite3.Error as erro:
     print("La création de la table a mal tourné: ", erro)
