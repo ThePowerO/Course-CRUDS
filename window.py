@@ -24,9 +24,6 @@ fenêtre.geometry("850x620")
 fenêtre.configure(background=co1)
 fenêtre.resizable(width=FALSE, height=FALSE)
 
-frame_logo.grid(row=0, column=0, pady=0, padx=0, sticky=NSEW)
-
-
 Style = Style(fenêtre)
 Style.theme_use('clam')
 
