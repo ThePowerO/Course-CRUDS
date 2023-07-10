@@ -23,3 +23,5 @@ fenêtre.title("")
 fenêtre.geometry("850x620")
 fenêtre.configure(background=co1)
 fenêtre.resizable(width=FALSE, height=FALSE)
+
+Style = Style(fenêtre)
