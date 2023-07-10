@@ -44,3 +44,4 @@ frame_détails = Frame(fenêtre, width=850, height=200, background=co1)
 frame_détails.grid(row=4, column=0, pady=0, padx=0, sticky=NSEW)
 
 frame_table = Frame(fenêtre, width=850, height=200, background=co1)
+frame_table.grid(row=5, column=0, pady=0, padx=10, sticky=NSEW)
