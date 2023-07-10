@@ -31,3 +31,4 @@ Style = Style(fenêtre)
 Style.theme_use('clam')
 
 frame_logo = Frame(fenêtre, width=850, height=52, background=co6)
+frame_logo.grid(row=0, column=0, pady=0, padx=0, sticky=NSEW)
