@@ -47,3 +47,4 @@ frame_table = Frame(fenêtre, width=850, height=200, background=co1)
 frame_table.grid(row=5, column=0, pady=0, padx=10, sticky=NSEW)
 
 logo_img = Image.open('logo.png')
+logo_img = logo_img.resize((50,50))
