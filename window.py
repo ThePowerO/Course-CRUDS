@@ -20,3 +20,4 @@ co9 = "#e9edf5"   # + vert
 
 fenêtre = Tk()
 fenêtre.title("")
+fenêtre.geometry("850x620")
