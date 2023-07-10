@@ -48,3 +48,4 @@ frame_table.grid(row=5, column=0, pady=0, padx=10, sticky=NSEW)
 
 logo_img = Image.open('logo.png')
 logo_img = logo_img.resize((50,50))
+logo_img = ImageTk.PhotoImage(logo_img)
