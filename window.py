@@ -15,3 +15,4 @@ co6 = "#003452"   # Blue
 co7 = "#ef5350"   # Rouge
 
 co6 = "#038cfc"   # Blue
+co8 = "#263238"   # + vert
