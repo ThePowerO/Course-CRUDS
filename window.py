@@ -25,3 +25,4 @@ fenêtre.configure(background=co1)
 fenêtre.resizable(width=FALSE, height=FALSE)
 
 Style = Style(fenêtre)
+Style.theme_use('clam')
