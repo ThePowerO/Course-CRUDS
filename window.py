@@ -13,3 +13,5 @@ co3 = "#00a095"  # Vert
 co4 = "#403d3d"   # lettre
 co6 = "#003452"   # Blue
 co7 = "#ef5350"   # Rouge
+
+co6 = "#038cfc"   # Blue
