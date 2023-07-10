@@ -51,3 +51,5 @@ logo_img = logo_img.resize((50,50))
 logo_img = ImageTk.PhotoImage(logo_img)
 frame_logo = Label(frame_logo, image=logo_img, text="Inscription des étudiants", width=850, compound=LEFT, relief=RAISED, anchor=NW, font=("Ivy 15 bold"), bg=co6, fg=co1)
 frame_logo.place(x=0, y=0)
+
+fenêtre.mainloop()
