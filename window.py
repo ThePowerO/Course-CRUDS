@@ -8,3 +8,4 @@ from PIL import ImageTk, Image
 
 co0 = "#2e2d2b"  # Noir
 co1 = "#feffff"  # Blanc 
+co2 = "#e5e5e5"  # grey
