@@ -7,3 +7,4 @@ from tkinter import filedialog as fd
 from PIL import ImageTk, Image
 
 co0 = "#2e2d2b"  # Noir
+co1 = "#feffff"  # Blanc 
