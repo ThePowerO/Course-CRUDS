@@ -72,5 +72,7 @@ def contrôle(i):
         for widget in frame_détails.winfo_children():
             widget.destroy()
 
+        for widget in frame_table.winfo_children():
+
 
 fenêtre.mainloop()
