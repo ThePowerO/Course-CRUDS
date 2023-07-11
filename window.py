@@ -76,6 +76,8 @@ def contrôle(i):
             widget.destroy()
 
         ajouter()
+        
+    if i == 'Sauver':
 
 
 fenêtre.mainloop()
