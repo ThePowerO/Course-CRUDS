@@ -51,6 +51,8 @@ frame_logo.place(x=0, y=0)
 
 def étudiants():
     print("Étudiant")
+    
+def ajouter():
 
 
 fenêtre.mainloop()
