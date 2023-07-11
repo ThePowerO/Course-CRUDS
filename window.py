@@ -98,5 +98,7 @@ ajouter_img = ImageTk.PhotoImage(ajouter_img)
 bouton_ajouter = Button(frame_donnés, command=lambda:contrôle("Ajouter"), image=add_img, text="Ajouter", width=100, compound=LEFT, overrelief=RIDGE, font=("Ivy 11"), bg=co1, fg=co0)
 bouton_ajouter.place(x=123, y=30)
 
+sauver_img = Image.open('save.png')
+
 
 fenêtre.mainloop()
