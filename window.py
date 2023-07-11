@@ -87,6 +87,7 @@ def contrôle(i):
         sauver()
 
 add_img = Image.open('add.png')
+add_img = add_img.resize((18,18))
 
 
 fenêtre.mainloop()
