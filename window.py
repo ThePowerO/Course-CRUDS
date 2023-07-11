@@ -61,6 +61,7 @@ def sauver():
 def contrôle(i):
     if i == 'Inscription':
         for widget in frame_détails.winfo_children():
+            widget.destroy()
 
 
 fenêtre.mainloop()
