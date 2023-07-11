@@ -94,6 +94,7 @@ bouton_register.place(x=10, y=30)
 
 ajouter_img = Image.open('add.png')
 ajouter_img = ajouter_img.resize((18,18))
+ajouter_img = ImageTk.PhotoImage(ajouter_img)
 
 
 fenêtre.mainloop()
