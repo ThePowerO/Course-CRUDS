@@ -53,6 +53,7 @@ def étudiants():
     print("Étudiant")
     
 def ajouter():
+    print("Cours et Classes")
 
 
 fenêtre.mainloop()
