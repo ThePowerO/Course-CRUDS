@@ -70,6 +70,7 @@ def contrôle(i):
 
     if i == 'Ajouter':
         for widget in frame_détails.winfo_children():
+            widget.destroy()
 
 
 fenêtre.mainloop()
