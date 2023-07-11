@@ -58,5 +58,7 @@ def ajouter():
 def sauver():
     print("Sauver")
 
+def contrôle(i):
+
 
 fenêtre.mainloop()
