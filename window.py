@@ -50,6 +50,7 @@ frame_logo = Label(frame_logo, image=logo_img, text="Inscription des étudiants"
 frame_logo.place(x=0, y=0)
 
 def étudiants():
+    print("Étudiant")
 
 
 fenêtre.mainloop()
