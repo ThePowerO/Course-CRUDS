@@ -89,6 +89,7 @@ def contrôle(i):
 add_img = Image.open('add.png')
 add_img = add_img.resize((18,18))
 add_img = ImageTk.PhotoImage(add_img)
+bouton_register = Button(frame_donnés, command=lambda:contrôle("Inscription"), image=add_img, text="Inscription", width=100, compound=LEFT, overrelief=RIDGE, font=("Ivy 11"), bg=co1, fg=co0)
 
 
 fenêtre.mainloop()
