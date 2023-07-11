@@ -59,6 +59,7 @@ def sauver():
     print("Sauver")
 
 def contrôle(i):
+    if i == 'Inscription':
 
 
 fenêtre.mainloop()
