@@ -92,5 +92,7 @@ add_img = ImageTk.PhotoImage(add_img)
 bouton_register = Button(frame_donnés, command=lambda:contrôle("Inscription"), image=add_img, text="Inscription", width=100, compound=LEFT, overrelief=RIDGE, font=("Ivy 11"), bg=co1, fg=co0)
 bouton_register.place(x=10, y=30)
 
+ajouter_img = Image.open('add.png')
+
 
 fenêtre.mainloop()
