@@ -88,6 +88,7 @@ def contrôle(i):
 
 add_img = Image.open('add.png')
 add_img = add_img.resize((18,18))
+add_img = ImageTk.PhotoImage(add_img)
 
 
 fenêtre.mainloop()
