@@ -99,6 +99,7 @@ bouton_ajouter = Button(frame_donnés, command=lambda:contrôle("Ajouter"), imag
 bouton_ajouter.place(x=123, y=30)
 
 sauver_img = Image.open('save.png')
+sauver_img = sauver_img.resize((18,18))
 
 
 fenêtre.mainloop()
