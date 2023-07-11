@@ -93,6 +93,7 @@ bouton_register = Button(frame_donnés, command=lambda:contrôle("Inscription"),
 bouton_register.place(x=10, y=30)
 
 ajouter_img = Image.open('add.png')
+ajouter_img = ajouter_img.resize((18,18))
 
 
 fenêtre.mainloop()
