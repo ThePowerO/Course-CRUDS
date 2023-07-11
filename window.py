@@ -101,6 +101,7 @@ bouton_ajouter.place(x=123, y=30)
 sauver_img = Image.open('save.png')
 sauver_img = sauver_img.resize((18,18))
 sauver_img = ImageTk.PhotoImage(sauver_img)
+bouton_sauver = Button(frame_donnés, command=lambda:contrôle("Sauver"), image=sauver_img, text="Sauver", width=100, compound=LEFT, overrelief=RIDGE, font=("Ivy 11"), bg=co1, fg=co0)
 
 
 fenêtre.mainloop()
