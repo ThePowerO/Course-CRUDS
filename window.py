@@ -69,6 +69,7 @@ def contrôle(i):
         étudiants()
 
     if i == 'Ajouter':
+        for widget in frame_détails.winfo_children():
 
 
 fenêtre.mainloop()
