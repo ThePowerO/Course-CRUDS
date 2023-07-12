@@ -121,6 +121,7 @@ def ajouter():
         for col in list_header:
             tree_curso.heading(col, text=col.title(), anchor=NW)
             # ajuster la largeur de la colonne à la chaîne d'en-tête
+            tree_curso.column(col, width=h[n], anchor=hd[n],)
 
 
 def sauver():
