@@ -105,6 +105,8 @@ def ajouter():
 
         # vertical scrollbar
         vsb = ttk.Scrollbar(frame_tableau_cours, orient="vertical", command=tree_curso.yview)
+        # horizontal scrollbar
+        hsb = ttk.Scrollbar(frame_tableau_cours, orient="horizontal", command=tree_curso.xview)
 
 
 def sauver():
