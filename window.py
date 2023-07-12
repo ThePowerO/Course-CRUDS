@@ -116,6 +116,7 @@ def ajouter():
 
         hd=["nw","nw","e","e"]
         h=[30,150,80,60]
+        n=0
 
 
 def sauver():
