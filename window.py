@@ -90,6 +90,7 @@ def ajouter():
     bouton_supprimer1.place(x=260, y=160)
 
     # Table Cours
+    def mostrar_cursos():
 
 
 def sauver():
