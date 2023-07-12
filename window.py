@@ -109,6 +109,7 @@ def ajouter():
         hsb = ttk.Scrollbar(frame_tableau_cours, orient="horizontal", command=tree_curso.xview)
 
         tree_curso.configure(yscrollcommand=vsb.set, xscrollcommand=hsb.set)
+        tree_curso.grid(column=0, row=1, sticky='nsew')
 
 
 def sauver():
