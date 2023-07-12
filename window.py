@@ -119,6 +119,7 @@ def ajouter():
         n=0
 
         for col in list_header:
+            tree_curso.heading(col, text=col.title(), anchor=NW)
 
 
 def sauver():
