@@ -123,6 +123,8 @@ def ajouter():
             # ajuster la largeur de la colonne à la chaîne d'en-tête
             tree_curso.column(col, width=h[n], anchor=hd[n],)
 
+        n+=1
+
 
 def sauver():
     print("Sauver")
