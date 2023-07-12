@@ -101,6 +101,7 @@ def ajouter():
 
         global tree_curso
 
+        tree_curso = ttk.Treeview(frame_tableau_cours, selectmode="extended",columns=list_header, show="headings")
 
 def sauver():
     print("Sauver")
