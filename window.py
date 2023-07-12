@@ -80,6 +80,8 @@ def ajouter():
     prix = Entry(frame_détails, width=11, justify='left', relief="solid")
     prix.place(x=14, y=160)
 
+    bouton_sauver1 = Button(frame_détails, anchor=CENTER, text="Sauver".upper(), width=10, overrelief=RIDGE, font=("Ivy 7 bold"), bg=co3, fg=co1)
+
 
 def sauver():
     print("Sauver")
