@@ -114,6 +114,8 @@ def ajouter():
         hsb.grid(column=0, row=2, sticky='ew')
         frame_tableau_cours.grid_rowconfigure(0, weight=12)
 
+        hd=["nw","nw","e","e"]
+
 
 def sauver():
     print("Sauver")
