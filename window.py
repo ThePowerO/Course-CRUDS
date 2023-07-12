@@ -103,6 +103,9 @@ def ajouter():
 
         tree_curso = ttk.Treeview(frame_tableau_cours, selectmode="extended",columns=list_header, show="headings")
 
+        # vertical scrollbar
+
+
 def sauver():
     print("Sauver")
 
