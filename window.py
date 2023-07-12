@@ -95,6 +95,7 @@ def ajouter():
         app_nom.grid(row=0, column=0, padx=0, pady=10, sticky=NSEW)
 
         # créer une arborescence avec deux barres de défilement
+        list_header = ['ID','Cours','Durée','Prix']
 
 
 def sauver():
