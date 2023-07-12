@@ -128,6 +128,7 @@ def ajouter():
         for item in df_list:
             tree_curso.insert('', 'end', values=item)
 
+    mostrar_cursos()
 
 def sauver():
     print("Sauver")
