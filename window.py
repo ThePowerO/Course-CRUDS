@@ -63,6 +63,7 @@ def ajouter():
     frame_ligne.grid(row=0, column=1, pady=0, padx=10, sticky=NSEW)
 
     frame_tableau_classes = Frame(frame_table, width=300, height=200, bg=co4)
+    frame_tableau_classes.grid(row=0, column=2, pady=0, padx=10, sticky=NSEW)
 
 
 def sauver():
