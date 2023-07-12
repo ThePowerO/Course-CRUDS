@@ -118,6 +118,8 @@ def ajouter():
         h=[30,150,80,60]
         n=0
 
+        for col in list_header:
+
 
 def sauver():
     print("Sauver")
