@@ -99,6 +99,8 @@ def ajouter():
 
         df_list = []
 
+        global tree_curso
+
 
 def sauver():
     print("Sauver")
