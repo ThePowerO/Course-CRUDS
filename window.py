@@ -55,7 +55,8 @@ def étudiants():
     print("Étudiant")
     
 def ajouter():
-    print("Cours et Classes")
+    # Création des Frames Cours et Tableaus
+
 
 def sauver():
     print("Sauver")
