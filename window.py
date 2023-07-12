@@ -56,6 +56,7 @@ def étudiants():
     
 def ajouter():
     # Création des Frames Cours et Tableaus
+    frame_tableau_cours = Frame(frame_table, width=300, height=200, bg=co1)
 
 
 def sauver():
