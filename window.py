@@ -125,6 +125,8 @@ def ajouter():
 
         n+=1
 
+        for item in df_list:
+
 
 def sauver():
     print("Sauver")
