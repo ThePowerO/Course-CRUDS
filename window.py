@@ -75,6 +75,7 @@ def ajouter():
     durée = Entry(frame_détails, width=19, justify='left', relief="solid")
     durée.place(x=14, y=100)
 
+    l_prix = Label(frame_détails, text="Prix:", font=("Ivy 11"), anchor=NW,height=1, bg=co1, fg=co4)
 
 
 def sauver():
