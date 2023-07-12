@@ -72,6 +72,7 @@ def ajouter():
 
     l_durée = Label(frame_détails, text="Durée:", font=("Ivy 11"), anchor=NW,height=1, bg=co1, fg=co4)
     l_durée.place(x=14, y=70)
+    nom_cours = Entry(frame_détails, width=35, justify='left', relief="solid")
 
 
 
