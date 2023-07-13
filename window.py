@@ -131,6 +131,7 @@ def ajouter():
     montrer_cours()
 
     l_ligne = Label(frame_détails, text="h", relief=GROOVE, height=100, font=("Ivy 1"), bg=co0, fg=co0, anchor=NW)
+    l_ligne.place(x=374, y=10)
 
 
 def sauver():
