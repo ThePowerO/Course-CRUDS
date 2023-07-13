@@ -90,7 +90,7 @@ def ajouter():
     bouton_supprimer1.place(x=260, y=160)
 
     # Table Cours
-    def mostrar_cursos():
+    def montrer_cours():
         app_nom = Label(frame_tableau_cours, text="Tableau du Cours", height=1,pady=0, padx=0, relief="flat", anchor=NW, font=('Ivy 10 bold'), bg=co1, fg=co4)
         app_nom.grid(row=0, column=0, padx=0, pady=10, sticky=NSEW)
 
