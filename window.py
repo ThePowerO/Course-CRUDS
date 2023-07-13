@@ -103,7 +103,7 @@ def ajouter():
 
         tree_curso = ttk.Treeview(frame_tableau_cours, selectmode="extended",columns=list_header, show="headings")
 
-        # vertical scrollbar
+        
         vsb = ttk.Scrollbar(frame_tableau_cours, orient="vertical", command=tree_curso.yview)
         
         hsb = ttk.Scrollbar(frame_tableau_cours, orient="horizontal", command=tree_curso.xview)
