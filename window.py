@@ -123,7 +123,7 @@ def ajouter():
             # ajuster la largeur de la colonne à la chaîne d'en-tête
             tree_curso.column(col, width=h[n], anchor=hd[n],)
 
-        n+=1
+            n+=1
 
         for item in df_list:
             tree_curso.insert('', 'end', values=item)
