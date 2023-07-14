@@ -151,6 +151,7 @@ def ajouter():
     l_classe.place(x=404, y=70)
 
     les_cours = ["cours 1", "cours 2"]
+    cours = []
 
 
 def sauver():
