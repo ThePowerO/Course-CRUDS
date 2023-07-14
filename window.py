@@ -209,6 +209,7 @@ def ajouter():
             n+=1
 
         for item in df_list:
+            tree_classe.insert('', 'end', values=item)
 
 
 def sauver():
