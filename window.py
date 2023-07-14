@@ -188,6 +188,8 @@ def ajouter():
 
         tree_classe = ttk.Treeview(frame_tableau_classes, selectmode="extended",columns=list_header, show="headings")
 
+        vsb = ttk.Scrollbar(frame_tableau_classes, orient="vertical", command=tree_classe.yview)
+
 
 def sauver():
     print("Sauver")
