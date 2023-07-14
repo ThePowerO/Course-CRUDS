@@ -135,9 +135,9 @@ def ajouter():
     l_ligne = Label(frame_détails, text="h", relief=GROOVE, height=100, font=("Ivy 1"), bg=co1, fg=co0, anchor=NW)
     l_ligne.place(x=372, y=10)
 
-    l_ligne = Label(frame_tableau_ligne, text="h", relief=GROOVE, height=100, font=("Ivy 1"), bg=co0, fg=co0, anchor=NW)
+    l_ligne = Label(frame_tableau_ligne, text="h", relief=GROOVE, height=140, font=("Ivy 1"), bg=co0, fg=co0, anchor=NW)
     l_ligne.place(x=6, y=10)
-    l_ligne = Label(frame_tableau_ligne, text="h", relief=GROOVE, height=100, font=("Ivy 1"), bg=co1, fg=co0, anchor=NW)
+    l_ligne = Label(frame_tableau_ligne, text="h", relief=GROOVE, height=140, font=("Ivy 1"), bg=co1, fg=co0, anchor=NW)
     l_ligne.place(x=4, y=10)
 
 
