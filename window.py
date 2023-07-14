@@ -184,6 +184,8 @@ def ajouter():
 
         df_list = []
 
+        global tree_classe
+
 
 def sauver():
     print("Sauver")
