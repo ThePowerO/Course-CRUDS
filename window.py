@@ -171,6 +171,8 @@ def ajouter():
     bouton_update2 = Button(frame_détails, anchor=CENTER, text="Update".upper(), width=10, overrelief=RIDGE, font=("Ivy 7"), bg=co6, fg=co1,)
     bouton_update2.place(x=587, y=160)
 
+    bouton_supprimer2 = Button(frame_détails, anchor=CENTER, text="Supprimer".upper(), width=10, overrelief=RIDGE, font=("Ivy 7"), bg=co7, fg=co1,)
+
 
 def sauver():
     print("Sauver")
