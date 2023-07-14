@@ -203,6 +203,7 @@ def ajouter():
 
         for col in list_header:
             tree_classe.heading(col, text=col.title(), anchor=NW)
+            # ajuster la largeur de la colonne à la chaîne d'en-tête
 
 
 def sauver():
