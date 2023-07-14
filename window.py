@@ -69,7 +69,7 @@ def ajouter():
     frame_tableau_classes.grid(row=0, column=2, pady=0, padx=10, sticky=NSEW)
 
     l_nom = Label(frame_détails, text="Nom du Cours:", font=("Ivy 11"), anchor=NW,height=1, bg=co1, fg=co4)
-    l_nom.place(x=14, y=10)
+    l_nom.place(x=4, y=10)
     nom_cours = Entry(frame_détails, width=35, justify='left', relief="solid")
     nom_cours.place(x=14, y=40)
 
