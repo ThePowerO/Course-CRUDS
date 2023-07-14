@@ -40,7 +40,7 @@ frame_données.grid(row=2, column=0, pady=0, padx=0, sticky=NSEW)
 ttk.Separator(fenêtre, orient=HORIZONTAL).grid(row=3, columnspan=1, ipadx=680)
 
 frame_détails = Frame(fenêtre, width=850, height=200, background=co1)
-frame_détails.grid(row=4, column=0, pady=0, padx=0, sticky=NSEW)
+frame_détails.grid(row=4, column=0, pady=0, padx=10, sticky=NSEW)
 
 frame_table = Frame(fenêtre, width=850, height=200, background=co1)
 frame_table.grid(row=5, column=0, pady=0, padx=10, sticky=NSEW)
