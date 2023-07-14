@@ -198,6 +198,7 @@ def ajouter():
         frame_tableau_classes.grid_rowconfigure(0, weight=12)
 
         hd=["nw","nw","e","e"]
+        h=[30,130,150,80]
 
 
 def sauver():
