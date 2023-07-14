@@ -150,6 +150,8 @@ def ajouter():
     l_classe = Label(frame_détails, text="Cours", height=1, anchor=NW, font=("Ivy 10"),bg=co1, fg=co4)
     l_classe.place(x=404, y=70)
 
+    les_cours = ["cours 1", "cours 2"]
+
 
 def sauver():
     print("Sauver")
