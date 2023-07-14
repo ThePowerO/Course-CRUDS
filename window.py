@@ -34,7 +34,7 @@ frame_logo.grid(row=0, column=0, pady=0, padx=0, sticky=NSEW)
 
 ttk.Separator(fenêtre, orient=HORIZONTAL).grid(row=1, columnspan=1, ipadx=680)
 
-frame_données = Frame(fenêtre, width=850, height=62, background=co1)
+frame_données = Frame(fenêtre, width=850, height=65, background=co1)
 frame_données.grid(row=2, column=0, pady=0, padx=0, sticky=NSEW)
 
 ttk.Separator(fenêtre, orient=HORIZONTAL).grid(row=3, columnspan=1, ipadx=680)
