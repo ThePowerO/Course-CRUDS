@@ -182,6 +182,8 @@ def ajouter():
         # créer une arborescence avec deux barres de défilement
         list_header = ['ID','Nom du Classe','Cours','Date Initiale']
 
+        df_list = []
+
 
 def sauver():
     print("Sauver")
