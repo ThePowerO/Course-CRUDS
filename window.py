@@ -175,6 +175,7 @@ def ajouter():
     bouton_supprimer2.place(x=667, y=160)
 
     # Tableau du Classes
+    def montrer_classes():
 
 
 def sauver():
