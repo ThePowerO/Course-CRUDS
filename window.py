@@ -74,7 +74,7 @@ def ajouter():
     nom_cours.place(x=7, y=40)
 
     l_durée = Label(frame_détails, text="Durée:", font=("Ivy 11"), anchor=NW,height=1, bg=co1, fg=co4)
-    l_durée.place(x=14, y=70)
+    l_durée.place(x=4, y=70)
     durée = Entry(frame_détails, width=19, justify='left', relief="solid")
     durée.place(x=14, y=100)
 
