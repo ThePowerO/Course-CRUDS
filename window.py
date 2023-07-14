@@ -147,6 +147,8 @@ def ajouter():
     e_nom_classe = Entry(frame_détails, width=35, justify='left', relief="solid")
     e_nom_classe.place(x=407, y=40)
 
+    l_classe = Label(frame_détails, text="Cours", height=1, anchor=NW, font=("Ivy 10"),bg=co1, fg=co4)
+
 
 def sauver():
     print("Sauver")
