@@ -165,6 +165,8 @@ def ajouter():
     date_initiale = DateEntry(frame_détails, width=10, background="darkblue", foreground='white', borderwidth=2, year=2023)
     date_initiale.place(x=407, y=160)
 
+    bouton_sauver2 = Button(frame_détails, anchor=CENTER, text="Sauver".upper(), width=10, overrelief=RIDGE, font=("Ivy 7"), bg=co3, fg=co1)
+
 
 def sauver():
     print("Sauver")
