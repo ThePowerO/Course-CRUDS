@@ -84,7 +84,7 @@ def ajouter():
     prix.place(x=14, y=160)
 
     bouton_sauver1 = Button(frame_détails, anchor=CENTER, text="Sauver".upper(), width=10, overrelief=RIDGE, font=("Ivy 7 bold"), bg=co3, fg=co1)
-    bouton_sauver1.place(x=100, y=160)
+    bouton_sauver1.place(x=107, y=160)
 
     bouton_update1 = Button(frame_détails, anchor=CENTER, text="Update".upper(), width=10, overrelief=RIDGE, font=("Ivy 7 bold"), bg=co6, fg=co1,)
     bouton_update1.place(x=180, y=160)
