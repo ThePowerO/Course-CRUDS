@@ -90,7 +90,7 @@ def ajouter():
     bouton_update1.place(x=187, y=160)
 
     bouton_supprimer1 = Button(frame_détails, anchor=CENTER, text="Supprimer".upper(), width=10, overrelief=RIDGE, font=("Ivy 7 bold"), bg=co7, fg=co1,)
-    bouton_supprimer1.place(x=260, y=160)
+    bouton_supprimer1.place(x=267, y=160)
 
     # Table Cours
     def montrer_cours():
