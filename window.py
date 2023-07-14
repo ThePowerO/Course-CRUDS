@@ -142,6 +142,7 @@ def ajouter():
     l_ligne.place(x=4, y=10)
 
     #Détails du Classes
+    l_nom = Label(frame_détails, text="Nom du Classes:", font=("Ivy 10"), anchor=NW,height=1, bg=co1, fg=co4)
 
 
 def sauver():
