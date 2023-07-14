@@ -211,6 +211,8 @@ def ajouter():
         for item in df_list:
             tree_classe.insert('', 'end', values=item)
 
+    montrer_classes()
+
 
 def sauver():
     print("Sauver")
