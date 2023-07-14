@@ -81,7 +81,7 @@ def ajouter():
     l_prix = Label(frame_détails, text="Prix:", font=("Ivy 11"), anchor=NW,height=1, bg=co1, fg=co4)
     l_prix.place(x=4, y=130)
     prix = Entry(frame_détails, width=11, justify='left', relief="solid")
-    prix.place(x=14, y=160)
+    prix.place(x=7, y=160)
 
     bouton_sauver1 = Button(frame_détails, anchor=CENTER, text="Sauver".upper(), width=10, overrelief=RIDGE, font=("Ivy 7 bold"), bg=co3, fg=co1)
     bouton_sauver1.place(x=107, y=160)
