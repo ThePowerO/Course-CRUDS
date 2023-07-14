@@ -192,6 +192,7 @@ def ajouter():
         hsb = ttk.Scrollbar(frame_tableau_classes, orient="horizontal", command=tree_classe.xview)
 
         tree_classe.configure(yscrollcommand=vsb.set, xscrollcommand=hsb.set)
+        tree_classe.grid(column=0, row=1, sticky='nsew')
 
 
 def sauver():
