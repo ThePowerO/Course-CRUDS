@@ -158,6 +158,7 @@ def ajouter():
 
     c_cours = ttk.Combobox(frame_détails, width=20, font=("Ivy 8 bold"))
     c_cours["values"] = (cours)
+    c_cours.place(x=407, y=100)
 
 
 def sauver():
