@@ -193,6 +193,7 @@ def ajouter():
 
         tree_classe.configure(yscrollcommand=vsb.set, xscrollcommand=hsb.set)
         tree_classe.grid(column=0, row=1, sticky='nsew')
+        vsb.grid(column=1, row=1, sticky='ns')
 
 
 def sauver():
