@@ -87,7 +87,7 @@ def ajouter():
     bouton_sauver1.place(x=107, y=160)
 
     bouton_update1 = Button(frame_détails, anchor=CENTER, text="Update".upper(), width=10, overrelief=RIDGE, font=("Ivy 7 bold"), bg=co6, fg=co1,)
-    bouton_update1.place(x=180, y=160)
+    bouton_update1.place(x=187, y=160)
 
     bouton_supprimer1 = Button(frame_détails, anchor=CENTER, text="Supprimer".upper(), width=10, overrelief=RIDGE, font=("Ivy 7 bold"), bg=co7, fg=co1,)
     bouton_supprimer1.place(x=260, y=160)
