@@ -177,6 +177,7 @@ def ajouter():
     # Tableau du Classes
     def montrer_classes():
         app_nom = Label(frame_tableau_classes, text="Tableau du Cours", height=1,pady=0, padx=0, relief="flat", anchor=NW, font=('Ivy 10 bold'), bg=co1, fg=co4)
+        app_nom.grid(row=0, column=0, padx=0, pady=10, sticky=NSEW)
 
 
 def sauver():
