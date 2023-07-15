@@ -72,6 +72,7 @@ def étudiants():
     c_téléphone.place(x=7, y=160)
 
     l_sexe = Label(frame_détails, text="Sexe:", font=("Ivy 10"), anchor=NW,height=1, bg=co1, fg=co4)
+    l_sexe.place(x=190, y=130)
 
     
 def ajouter():
