@@ -80,6 +80,7 @@ def étudiants():
     l_date_naissance = Label(frame_détails, text="Date de Naissance:", font=("Ivy 10"), anchor=NW,height=1, bg=co1, fg=co4)
     l_date_naissance.place(x=446, y=10)
     date_naissance = DateEntry(frame_détails, width=18, background="darkblue", foreground='white', borderwidth=2, year=2023)
+    date_naissance.place(x=450, y=40)
 
     
 def ajouter():
