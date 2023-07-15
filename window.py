@@ -82,6 +82,8 @@ def étudiants():
     date_naissance = DateEntry(frame_détails, width=18, background="darkblue", foreground='white', borderwidth=2, year=2023)
     date_naissance.place(x=450, y=40)
 
+    l_cpf = Label(frame_détails, text="CPF:", font=("Ivy 10"), anchor=NW,height=1, bg=co1, fg=co4)
+
     
 def ajouter():
     # Création des Frames Cours et Tableaus
