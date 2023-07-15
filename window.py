@@ -67,6 +67,7 @@ def étudiants():
     e_email.place(x=7, y=100)
 
     l_téléphone = Label(frame_détails, text="Téléphone:", font=("Ivy 10"), anchor=NW,height=1, bg=co1, fg=co4)
+    l_téléphone.place(x=4, y=130)
 
     
 def ajouter():
