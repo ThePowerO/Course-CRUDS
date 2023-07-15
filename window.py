@@ -66,6 +66,8 @@ def étudiants():
     e_email = Entry(frame_détails, width=45, justify='left', relief="solid")
     e_email.place(x=7, y=100)
 
+    l_téléphone = Label(frame_détails, text="Téléphone:", font=("Ivy 10"), anchor=NW,height=1, bg=co1, fg=co4)
+
     
 def ajouter():
     # Création des Frames Cours et Tableaus
