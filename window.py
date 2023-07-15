@@ -77,6 +77,8 @@ def étudiants():
     c_sexe["values"] = ("Masculin", "Feminine")
     c_sexe.place(x=190, y=160)
 
+    l_date_naissance = Label(frame_détails, text="Date de Naissance:", font=("Ivy 10"), anchor=NW,height=1, bg=co1, fg=co4)
+
     
 def ajouter():
     # Création des Frames Cours et Tableaus
