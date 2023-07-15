@@ -84,6 +84,7 @@ def étudiants():
 
     l_cpf = Label(frame_détails, text="CPF:", font=("Ivy 10"), anchor=NW,height=1, bg=co1, fg=co4)
     l_cpf.place(x=446, y=70)
+    e_cpf = Entry(frame_détails, width=20, justify='left', relief="solid")
 
     
 def ajouter():
