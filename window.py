@@ -93,6 +93,8 @@ def étudiants():
     for i in les_classes:
         classe.append(i)
 
+    l_classes = Label(frame_détails, text="Classe:", font=("Ivy 10"), anchor=NW,height=1, bg=co1, fg=co4)
+
     
 def ajouter():
     # Création des Frames Cours et Tableaus
