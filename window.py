@@ -71,6 +71,8 @@ def étudiants():
     c_téléphone = Entry(frame_détails, width=20, justify='left', relief="solid")
     c_téléphone.place(x=7, y=160)
 
+    l_sexe = Label(frame_détails, text="Sexe:", font=("Ivy 10"), anchor=NW,height=1, bg=co1, fg=co4)
+
     
 def ajouter():
     # Création des Frames Cours et Tableaus
