@@ -60,6 +60,8 @@ def étudiants():
     l_nom.place(x=4, y=10)
     e_nom = Entry(frame_détails, width=45, justify='left', relief="solid")
 
+    e_nom.place(x=7, y=40)
+
     
 def ajouter():
     # Création des Frames Cours et Tableaus
