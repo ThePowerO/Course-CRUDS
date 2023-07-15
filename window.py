@@ -91,6 +91,7 @@ def étudiants():
     classe = []
 
     for i in les_classes:
+        classe.append(i)
 
     
 def ajouter():
