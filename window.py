@@ -74,6 +74,7 @@ def étudiants():
     l_sexe = Label(frame_détails, text="Sexe:", font=("Ivy 10"), anchor=NW,height=1, bg=co1, fg=co4)
     l_sexe.place(x=190, y=130)
     c_sexe = ttk.Combobox(frame_détails, width=12, font=("Ivy 8 bold"))
+    c_sexe["values"] = ("Masculin", "Feminine")
 
     
 def ajouter():
