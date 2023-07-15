@@ -62,6 +62,7 @@ def étudiants():
     e_nom.place(x=7, y=40)
     
     l_email = Label(frame_détails, text="Email:", font=("Ivy 10"), anchor=NW,height=1, bg=co1, fg=co4)
+    l_email.place(x=4, y=70)
 
     
 def ajouter():
