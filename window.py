@@ -90,6 +90,8 @@ def étudiants():
     les_classes = ["Classe A Python", "Classe B HTML"]
     classe = []
 
+    for i in les_classes:
+
     
 def ajouter():
     # Création des Frames Cours et Tableaus
