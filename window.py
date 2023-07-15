@@ -88,6 +88,7 @@ def étudiants():
     e_cpf.place(x=450, y=100)
 
     les_classes = ["Classe A Python", "Classe B HTML"]
+    classe = []
 
     
 def ajouter():
