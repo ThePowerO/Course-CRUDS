@@ -59,8 +59,9 @@ def étudiants():
     l_nom = Label(frame_détails, text="Nom:", font=("Ivy 10"), anchor=NW,height=1, bg=co1, fg=co4)
     l_nom.place(x=4, y=10)
     e_nom = Entry(frame_détails, width=45, justify='left', relief="solid")
-
     e_nom.place(x=7, y=40)
+    
+    l_email = Label(frame_détails, text="Email:", font=("Ivy 10"), anchor=NW,height=1, bg=co1, fg=co4)
 
     
 def ajouter():
