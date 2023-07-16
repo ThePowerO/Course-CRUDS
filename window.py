@@ -142,6 +142,8 @@ def étudiants():
     bouton_voir = Button(frame_détails, anchor=CENTER, text="Voir".upper(), width=9, overrelief=RIDGE, font=("Ivy 7 bold"), bg=co1, fg=co0,)
     bouton_voir.place(x=727, y=160)
 
+    def montrer_étudiant():
+
 
 def ajouter():
     # Création des Frames Cours et Tableaus
