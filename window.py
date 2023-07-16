@@ -106,6 +106,9 @@ def étudiants():
         image = fd.askopenfilename()
         image_string = image
 
+        image = Image.open(image)
+
+
 def ajouter():
     # Création des Frames Cours et Tableaus
     frame_tableau_cours = Frame(frame_table, width=300, height=200, bg=co1)
