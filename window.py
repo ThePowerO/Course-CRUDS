@@ -154,6 +154,8 @@ def étudiants():
 
         tree_étudiants = ttk.Treeview(frame_table, selectmode="extended",columns=list_header, show="headings")
 
+        vsb = ttk.Scrollbar(frame_table, orient="vertical", command=tree_étudiants.yview)
+
 
 def ajouter():
     # Création des Frames Cours et Tableaus
