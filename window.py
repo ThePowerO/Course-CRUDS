@@ -168,6 +168,7 @@ def étudiants():
         n=0
 
         for col in list_header:
+            tree_étudiants.heading(col, text=col.title(), anchor=NW)
 
 
 def ajouter():
