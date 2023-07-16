@@ -144,6 +144,7 @@ def étudiants():
 
     def montrer_étudiant():
         app_nom = Label(frame_table, text="Tableau des estudantes", height=1,pady=0, padx=0, relief="flat", anchor=NW, font=('Ivy 10 bold'), bg=co1, fg=co4)
+        app_nom.grid(row=0, column=0, padx=0, pady=10, sticky=NSEW)
 
 
 def ajouter():
