@@ -173,6 +173,8 @@ def étudiants():
 
             n+=1
 
+        for item in df_list:
+
 
 def ajouter():
     # Création des Frames Cours et Tableaus
