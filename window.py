@@ -161,6 +161,7 @@ def étudiants():
         tree_étudiants.grid(column=0, row=1, sticky='nsew')
         vsb.grid(column=1, row=1, sticky='ns')
         hsb.grid(column=0, row=2, sticky='ew')
+        frame_table.grid_rowconfigure(0, weight=12)
 
 
 def ajouter():
