@@ -167,6 +167,8 @@ def étudiants():
         h=[40,150,150,70,70,70,80,80,100]
         n=0
 
+        for col in list_header:
+
 
 def ajouter():
     # Création des Frames Cours et Tableaus
