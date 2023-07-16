@@ -164,6 +164,7 @@ def étudiants():
         frame_table.grid_rowconfigure(0, weight=12)
 
         hd=["nw","nw","nw","center","center","center","center","center","center"]
+        h=[40,150,150,70,70,70,80,80,100]
 
 
 def ajouter():
