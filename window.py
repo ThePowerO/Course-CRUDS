@@ -140,6 +140,7 @@ def étudiants():
     bouton_supprimer2.place(x=627, y=160)
 
     bouton_voir = Button(frame_détails, anchor=CENTER, text="Voir".upper(), width=9, overrelief=RIDGE, font=("Ivy 7 bold"), bg=co1, fg=co0,)
+    bouton_voir.place(x=727, y=160)
 
 
 def ajouter():
