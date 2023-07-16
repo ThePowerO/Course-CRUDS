@@ -131,6 +131,7 @@ def étudiants():
     bouton_rechercher.place(x=757, y=35)
 
     bouton_sauver2 = Button(frame_détails, anchor=CENTER, text="Sauver".upper(), width=9, overrelief=RIDGE, font=("Ivy 7 bold"), bg=co3, fg=co1)
+    bouton_sauver2.place(x=627, y=110) 
 
 
 def ajouter():
