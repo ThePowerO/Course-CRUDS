@@ -125,6 +125,7 @@ def étudiants():
     l_nom1 = Label(frame_détails, text="Rechercer étudient", font=("Ivy 10"), anchor=NW, height=1, bg=co1, fg=co4)
     l_nom1.place(x=627, y=10)
     e_nom_rechercher = Entry(frame_détails, width=17, justify='center', relief="solid", font=("Ivy 10"))
+    e_nom_rechercher.place(x=630, y=35)
 
 
 def ajouter():
