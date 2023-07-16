@@ -143,6 +143,7 @@ def étudiants():
     bouton_voir.place(x=727, y=160)
 
     def montrer_étudiant():
+        app_nom = Label(frame_table, text="Tableau des estudantes", height=1,pady=0, padx=0, relief="flat", anchor=NW, font=('Ivy 10 bold'), bg=co1, fg=co4)
 
 
 def ajouter():
@@ -193,8 +194,7 @@ def ajouter():
         global tree_curso
 
         tree_curso = ttk.Treeview(frame_tableau_cours, selectmode="extended",columns=list_header, show="headings")
-
-        
+ 
         vsb = ttk.Scrollbar(frame_tableau_cours, orient="vertical", command=tree_curso.yview)
         
         hsb = ttk.Scrollbar(frame_tableau_cours, orient="horizontal", command=tree_curso.xview)
