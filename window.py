@@ -117,6 +117,8 @@ def étudiants():
     bouton_charger = Button(frame_détails, command=choisir_image, text="Charger Image".upper(), width=20, compound=CENTER, overrelief=RIDGE, anchor=CENTER, font=("Ivy 7"), bg=co1, fg=co0)
     bouton_charger.place(x=300, y=160)
 
+    l_ligne = Label(frame_détails, text="h", relief=GROOVE, height=100, font=("Ivy 1"), bg=co0, fg=co0, anchor=NW)
+
 
 def ajouter():
     # Création des Frames Cours et Tableaus
