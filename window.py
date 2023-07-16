@@ -130,6 +130,8 @@ def étudiants():
     bouton_rechercher = Button(frame_détails, anchor=CENTER, text="Rechercher", width=9, overrelief=RIDGE, font=("Ivy 7 bold"), bg=co2, fg=co0)
     bouton_rechercher.place(x=757, y=35)
 
+    bouton_sauver2 = Button(frame_détails, anchor=CENTER, text="Sauver".upper(), width=9, overrelief=RIDGE, font=("Ivy 7 bold"), bg=co3, fg=co1)
+
 
 def ajouter():
     # Création des Frames Cours et Tableaus
