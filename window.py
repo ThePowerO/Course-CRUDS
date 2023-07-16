@@ -102,6 +102,7 @@ def étudiants():
     global image, image_string, l_image
     
     def choisir_image():
+        global image, image_string, l_image
 
 def ajouter():
     # Création des Frames Cours et Tableaus
