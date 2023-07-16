@@ -157,6 +157,8 @@ def étudiants():
         vsb = ttk.Scrollbar(frame_table, orient="vertical", command=tree_étudiants.yview)
         hsb = ttk.Scrollbar(frame_table, orient="horizontal", command=tree_étudiants.xview)
 
+        tree_étudiants.configure(yscrollcommand=vsb.set, xscrollcommand=hsb.set)
+
 
 def ajouter():
     # Création des Frames Cours et Tableaus
