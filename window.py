@@ -174,6 +174,7 @@ def étudiants():
             n+=1
 
         for item in df_list:
+            tree_étudiants.insert('', 'end', values=item)
 
 
 def ajouter():
