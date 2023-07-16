@@ -103,6 +103,7 @@ def étudiants():
     
     def choisir_image():
         global image, image_string, l_image
+        image = fd.askopenfilename()
 
 def ajouter():
     # Création des Frames Cours et Tableaus
