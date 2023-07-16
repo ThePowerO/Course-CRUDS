@@ -152,6 +152,8 @@ def étudiants():
 
         global tree_étudiants
 
+        tree_étudiants = ttk.Treeview(frame_table, selectmode="extended",columns=list_header, show="headings")
+
 
 def ajouter():
     # Création des Frames Cours et Tableaus
