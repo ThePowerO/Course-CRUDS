@@ -171,6 +171,8 @@ def étudiants():
             tree_étudiants.heading(col, text=col.title(), anchor=NW)
             tree_étudiants.column(col, width=h[n],anchor=hd[n])
 
+            n+=1
+
 
 def ajouter():
     # Création des Frames Cours et Tableaus
