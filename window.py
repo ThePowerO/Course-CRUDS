@@ -150,6 +150,8 @@ def étudiants():
 
         df_list = []
 
+        global tree_étudiants
+
 
 def ajouter():
     # Création des Frames Cours et Tableaus
