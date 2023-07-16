@@ -122,6 +122,8 @@ def étudiants():
     l_ligne = Label(frame_détails, text="h", relief=GROOVE, height=100, font=("Ivy 1"), bg=co1, fg=co0, anchor=NW)
     l_ligne.place(x=608, y=10)
 
+    l_nom1 = Label(frame_détails, text="Rechercer étudient", font=("Ivy 10"), anchor=NW, height=1, bg=co1, fg=co4)
+
 
 def ajouter():
     # Création des Frames Cours et Tableaus
