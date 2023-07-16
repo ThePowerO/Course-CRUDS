@@ -148,6 +148,8 @@ def étudiants():
 
         list_header = ['id', 'Nome', 'email', 'Telefone','sexo', 'imagem', 'Data', 'CPF', 'Curso']
 
+        df_list = []
+
 
 def ajouter():
     # Création des Frames Cours et Tableaus
