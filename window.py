@@ -160,6 +160,7 @@ def étudiants():
         tree_étudiants.configure(yscrollcommand=vsb.set, xscrollcommand=hsb.set)
         tree_étudiants.grid(column=0, row=1, sticky='nsew')
         vsb.grid(column=1, row=1, sticky='ns')
+        hsb.grid(column=0, row=2, sticky='ew')
 
 
 def ajouter():
