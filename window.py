@@ -128,6 +128,7 @@ def étudiants():
     e_nom_rechercher.place(x=630, y=35)
 
     bouton_rechercher = Button(frame_détails, anchor=CENTER, text="Rechercher", width=9, overrelief=RIDGE, font=("Ivy 7 bold"), bg=co2, fg=co0)
+    bouton_rechercher.place(x=757, y=35)
 
 
 def ajouter():
