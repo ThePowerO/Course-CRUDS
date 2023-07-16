@@ -176,6 +176,7 @@ def étudiants():
         for item in df_list:
             tree_étudiants.insert('', 'end', values=item)
 
+    montrer_étudiant()
 
 def ajouter():
     # Création des Frames Cours et Tableaus
