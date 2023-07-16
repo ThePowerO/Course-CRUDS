@@ -100,8 +100,9 @@ def étudiants():
     c_classes.place(x=450, y=160)
 
     global image, image_string, l_image
-
     
+    def choisir_image():
+
 def ajouter():
     # Création des Frames Cours et Tableaus
     frame_tableau_cours = Frame(frame_table, width=300, height=200, bg=co1)
