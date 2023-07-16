@@ -139,6 +139,8 @@ def étudiants():
     bouton_supprimer2 = Button(frame_détails, anchor=CENTER, text="Supprimer".upper(), width=9, overrelief=RIDGE, font=("Ivy 7 bold"), bg=co7, fg=co1,)
     bouton_supprimer2.place(x=627, y=160)
 
+    bouton_voir = Button(frame_détails, anchor=CENTER, text="Voir".upper(), width=9, overrelief=RIDGE, font=("Ivy 7 bold"), bg=co1, fg=co0,)
+
 
 def ajouter():
     # Création des Frames Cours et Tableaus
