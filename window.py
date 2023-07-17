@@ -206,7 +206,10 @@ def ajouter():
 
         messagebox.showinfo("Succès", "Succès")
 
-    
+        e_nom_cours.delete(0,END)
+
+
+
     l_nom = Label(frame_détails, text="Nom du Cours:", font=("Ivy 11"), anchor=NW,height=1, bg=co1, fg=co4)
     l_nom.place(x=4, y=10)
     nom_cours = Entry(frame_détails, width=35, justify='left', relief="solid")
