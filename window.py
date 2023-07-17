@@ -262,6 +262,11 @@ def ajouter():
 
             valeur_id = tree_liste[0]
 
+            supprimer_course([valeur_id])
+
+
+
+
 
     l_nom = Label(frame_détails, text="Nom du Cours:", font=("Ivy 11"), anchor=NW,height=1, bg=co1, fg=co4)
     l_nom.place(x=4, y=10)
