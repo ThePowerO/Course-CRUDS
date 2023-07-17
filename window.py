@@ -254,6 +254,7 @@ def ajouter():
         except IndexError:
             messagebox.showerror("Erreur", "Sélectionnez l'un des cours du tableau")
 
+    def supprimer_cours():
 
 
     l_nom = Label(frame_détails, text="Nom du Cours:", font=("Ivy 11"), anchor=NW,height=1, bg=co1, fg=co4)
