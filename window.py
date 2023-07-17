@@ -257,6 +257,7 @@ def ajouter():
     def supprimer_cours():
         try:
             tree_itens = tree_cours.focus()
+            tree_dictionnaire = tree_cours.item(tree_itens)
 
 
     l_nom = Label(frame_détails, text="Nom du Cours:", font=("Ivy 11"), anchor=NW,height=1, bg=co1, fg=co4)
