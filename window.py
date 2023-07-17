@@ -251,6 +251,7 @@ def ajouter():
             bouton_sauver1 = Button(frame_détails, command=update, anchor=CENTER, text="Sauver".upper(), width=10, overrelief=RIDGE, font=("Ivy 7"), bg=co3, fg=co1)
             bouton_sauver1.place(x=227, y=130) 
 
+        except IndexError:
 
 
 
