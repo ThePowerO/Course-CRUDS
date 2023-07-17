@@ -240,6 +240,8 @@ def ajouter():
 
                 messagebox.showinfo("Succès", "Tu rempli tout avec succès")
 
+                e_nom_cours.delete(0,END)
+
 
 
 
