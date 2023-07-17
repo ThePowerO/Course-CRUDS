@@ -244,6 +244,7 @@ def ajouter():
                 e_durée.delete(0,END)
                 e_prix.delete(0,END)
 
+                montrer_cours()
 
 
 
