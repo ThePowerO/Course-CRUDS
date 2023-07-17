@@ -236,6 +236,7 @@ def ajouter():
                         messagebox.showerror("Erreur", "Il faut remplir l'espace")
                         return
 
+                update_course(liste)
 
 
 
