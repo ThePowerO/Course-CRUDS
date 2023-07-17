@@ -264,6 +264,7 @@ def ajouter():
 
             supprimer_course([valeur_id])
 
+            messagebox.showinfo("Succès", "Les donnés ont été supprimé avec succès")
 
 
 
