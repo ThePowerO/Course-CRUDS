@@ -199,6 +199,7 @@ def ajouter():
 
         for i in liste:
             if i == "":
+                messagebox.showerror("Erreur", "Il faut remplir l'espace")
 
 
 
