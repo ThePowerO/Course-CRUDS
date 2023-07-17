@@ -224,6 +224,13 @@ def ajouter():
             e_durée.insert(0, tree_liste[2])
             e_prix.insert(0, tree_liste[3])
 
+            def update():
+
+
+
+
+
+
 
 
     l_nom = Label(frame_détails, text="Nom du Cours:", font=("Ivy 11"), anchor=NW,height=1, bg=co1, fg=co4)
