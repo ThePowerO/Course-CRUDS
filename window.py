@@ -227,6 +227,7 @@ def ajouter():
             def update():
                 nom = e_nom_cours.get()
                 durée = e_durée.get()
+                prix = e_prix.get()
 
 
 
