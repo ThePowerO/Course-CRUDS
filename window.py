@@ -252,6 +252,7 @@ def ajouter():
             bouton_sauver1.place(x=227, y=130) 
 
         except IndexError:
+            messagebox.showerror("Erreur", "Sélectionnez l'un des cours du tableau")
 
 
 
