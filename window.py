@@ -198,6 +198,7 @@ def ajouter():
         liste = [nom, durée, prix]
 
         for i in liste:
+            if i == "":
 
 
 
