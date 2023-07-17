@@ -225,6 +225,7 @@ def ajouter():
             e_prix.insert(0, tree_liste[3])
 
             def update():
+                nom = e_nom_cours.get()
 
 
 
