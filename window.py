@@ -266,6 +266,7 @@ def ajouter():
 
             messagebox.showinfo("Succès", "Les donnés ont été supprimé avec succès")
 
+            montrer_cours()
 
 
 
