@@ -238,6 +238,7 @@ def ajouter():
 
                 update_course(liste)
 
+                messagebox.showinfo("Succès", "Tu rempli tout avec succès")
 
 
 
