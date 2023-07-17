@@ -210,6 +210,7 @@ def ajouter():
         e_durée.delete(0,END)
         e_prix.delete(0,END)
 
+        montrer_cours()
 
 
     l_nom = Label(frame_détails, text="Nom du Cours:", font=("Ivy 11"), anchor=NW,height=1, bg=co1, fg=co4)
