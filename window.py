@@ -231,6 +231,7 @@ def ajouter():
 
                 liste = [nom, durée, prix, valeur_id]
 
+                for i in liste:
 
 
 
