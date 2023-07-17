@@ -229,6 +229,7 @@ def ajouter():
                 durée = e_durée.get()
                 prix = e_prix.get()
 
+                liste = [nom, durée, prix, valeur_id]
 
 
 
