@@ -191,6 +191,7 @@ def ajouter():
 
     #Détails du Cours
     def noveau_cours():
+        nom = e_nom_cours.get()
 
     
     l_nom = Label(frame_détails, text="Nom du Cours:", font=("Ivy 11"), anchor=NW,height=1, bg=co1, fg=co4)
