@@ -222,6 +222,7 @@ def ajouter():
 
             e_nom_cours.insert(0, tree_liste[1])
             e_durée.insert(0, tree_liste[2])
+            e_prix.insert(0, tree_liste[3])
 
 
 
