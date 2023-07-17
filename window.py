@@ -208,6 +208,7 @@ def ajouter():
 
         e_nom_cours.delete(0,END)
         e_durée.delete(0,END)
+        e_prix.delete(0,END)
 
 
 
