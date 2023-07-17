@@ -193,6 +193,7 @@ def ajouter():
     def noveau_cours():
         nom = e_nom_cours.get()
         durée = e_durée.get()
+        prix = e_prix.get()
 
     
     l_nom = Label(frame_détails, text="Nom du Cours:", font=("Ivy 11"), anchor=NW,height=1, bg=co1, fg=co4)
