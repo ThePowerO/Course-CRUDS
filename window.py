@@ -246,6 +246,7 @@ def ajouter():
 
                 montrer_cours()
 
+                bouton_sauver1.destroy()
 
 
     l_nom = Label(frame_détails, text="Nom du Cours:", font=("Ivy 11"), anchor=NW,height=1, bg=co1, fg=co4)
