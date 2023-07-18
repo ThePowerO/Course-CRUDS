@@ -396,6 +396,8 @@ def ajouter():
                     if i == "":
                         messagebox.showerror("Erreur", "Il faut remplir l'espace")
                         return
+                        
+                update_classes(liste)
 
     l_nom = Label(frame_détails, text="Nom du Classes:", font=("Ivy 10"), anchor=NW,height=1, bg=co1, fg=co4)
     l_nom.place(x=404, y=10)
