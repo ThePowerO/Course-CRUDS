@@ -409,6 +409,7 @@ def ajouter():
 
                 bouton_sauver1.destroy()
 
+            bouton_sauver1 = Button(frame_détails, command=update, anchor=CENTER, text="Sauver".upper(), width=10, overrelief=RIDGE, font=("Ivy 7"), bg=co3, fg=co1)
 
 
     l_nom = Label(frame_détails, text="Nom du Classes:", font=("Ivy 10"), anchor=NW,height=1, bg=co1, fg=co4)
