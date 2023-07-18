@@ -431,13 +431,13 @@ def ajouter():
     date_initiale = DateEntry(frame_détails, width=10, background="darkblue", foreground='white', borderwidth=2, year=2023)
     date_initiale.place(x=407, y=160)
 
-    bouton_sauver2 = Button(frame_détails, anchor=CENTER, text="Sauver".upper(), width=10, overrelief=RIDGE, font=("Ivy 7"), bg=co3, fg=co1)
+    bouton_sauver2 = Button(frame_détails, command=noveau_classe, anchor=CENTER, text="Sauver".upper(), width=10, overrelief=RIDGE, font=("Ivy 7"), bg=co3, fg=co1)
     bouton_sauver2.place(x=507, y=160) 
 
-    bouton_update2 = Button(frame_détails, anchor=CENTER, text="Update".upper(), width=10, overrelief=RIDGE, font=("Ivy 7"), bg=co6, fg=co1,)
+    bouton_update2 = Button(frame_détails, command=update_classe, anchor=CENTER, text="Update".upper(), width=10, overrelief=RIDGE, font=("Ivy 7"), bg=co6, fg=co1,)
     bouton_update2.place(x=587, y=160)
 
-    bouton_supprimer2 = Button(frame_détails, anchor=CENTER, text="Supprimer".upper(), width=10, overrelief=RIDGE, font=("Ivy 7"), bg=co7, fg=co1,)
+    bouton_supprimer2 = Button(frame_détails, command=supprimer_classe, anchor=CENTER, text="Supprimer".upper(), width=10, overrelief=RIDGE, font=("Ivy 7"), bg=co7, fg=co1,)
     bouton_supprimer2.place(x=667, y=160)
 
     # Tableau du Classes
