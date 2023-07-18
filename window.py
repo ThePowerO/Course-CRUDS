@@ -401,6 +401,7 @@ def ajouter():
 
                 messagebox.showinfo("Succès", "Tu rempli tout avec succès")
 
+                e_nom_classe.delete(0,END)
 
 
 
