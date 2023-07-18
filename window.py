@@ -9,6 +9,8 @@ from PIL import ImageTk, Image
 from tkcalendar import Calendar, DateEntry
 from datetime import date
 
+from view import *
+
 #Couleurs
 co0 = "#2e2d2b"  # Noir
 co1 = "#feffff"  # Blanc 
