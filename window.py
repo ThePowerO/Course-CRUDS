@@ -386,6 +386,7 @@ def ajouter():
             e_date_initiale.insert(0, tree_liste[3])
 
             def update():
+                nom = e_nom_classe.get()
 
 
     l_nom = Label(frame_détails, text="Nom du Classes:", font=("Ivy 10"), anchor=NW,height=1, bg=co1, fg=co4)
