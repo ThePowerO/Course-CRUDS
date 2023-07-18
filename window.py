@@ -363,7 +363,10 @@ def ajouter():
                 messagebox.showerror("Erreur", "Il faut remplir l'espace")
                 return
 
-    
+        crée_class(liste)
+
+
+
     l_nom = Label(frame_détails, text="Nom du Classes:", font=("Ivy 10"), anchor=NW,height=1, bg=co1, fg=co4)
     l_nom.place(x=404, y=10)
     e_nom_classe = Entry(frame_détails, width=35, justify='left', relief="solid")
