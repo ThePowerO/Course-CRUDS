@@ -382,6 +382,7 @@ def ajouter():
             valeur_id = tree_liste[0]
 
             e_nom_classe.insert(0, tree_liste[1])
+            c_cours.insert(0, tree_liste[2])
 
 
 
