@@ -403,6 +403,7 @@ def ajouter():
 
                 e_nom_classe.delete(0,END)
                 c_cours.delete(0,END)
+                e_date_initiale.delete(0,END)
 
 
 
