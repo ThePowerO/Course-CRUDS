@@ -367,6 +367,8 @@ def ajouter():
 
         messagebox.showinfo("Succès", "Tu rempli tout avec succès")
 
+        e_nom_classe.delete(0,END)
+
 
     l_nom = Label(frame_détails, text="Nom du Classes:", font=("Ivy 10"), anchor=NW,height=1, bg=co1, fg=co4)
     l_nom.place(x=404, y=10)
