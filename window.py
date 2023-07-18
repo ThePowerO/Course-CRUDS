@@ -375,6 +375,7 @@ def ajouter():
 
     def update_classe():
         try:
+            tree_itens = tree_classe.focus()
 
 
 
