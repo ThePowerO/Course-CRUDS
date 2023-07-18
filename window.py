@@ -369,6 +369,7 @@ def ajouter():
 
         e_nom_classe.delete(0,END)
         c_cours.delete(0,END)
+        e_date_initiale.delete(0,END)
 
 
     l_nom = Label(frame_détails, text="Nom du Classes:", font=("Ivy 10"), anchor=NW,height=1, bg=co1, fg=co4)
