@@ -374,6 +374,7 @@ def ajouter():
         montrer_classes()
 
     def update_classe():
+        try:
 
 
 
