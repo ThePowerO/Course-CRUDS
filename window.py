@@ -379,6 +379,7 @@ def ajouter():
             tree_dictionnaire = tree_classe.item(tree_itens)
             tree_liste = tree_dictionnaire['values']
 
+            valeur_id = tree_liste[0]
 
 
 
