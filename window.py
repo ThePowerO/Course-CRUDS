@@ -353,6 +353,7 @@ def ajouter():
 
     def noveau_classe():
         nom = e_nom_classe.get()
+        cours = c_cours.get()
 
 
     
