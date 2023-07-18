@@ -415,6 +415,23 @@ def ajouter():
         except IndexError:
             messagebox.showerror("Erreur", "Sélectionnez l'un des classe du tableau")
 
+    def supprimer_classe():
+        try:
+            tree_itens = tree_classe.focus()
+            tree_dictionnaire = tree_classe.item(tree_itens)
+            tree_liste = tree_dictionnaire['values']
+
+            valeur_id = tree_liste[0]
+
+            supprimer_classes([valeur_id])
+
+            messagebox.showinfo("Succès", "Les donnés ont été supprimé avec succès")
+
+            montrer_classes()
+
+        except IndexError:
+            messagebox.showerror("Erreur", "Sélectionnez l'un des   du tableau")
+
     l_nom = Label(frame_détails, text="Nom du Classes:", font=("Ivy 10"), anchor=NW,height=1, bg=co1, fg=co4)
     l_nom.place(x=404, y=10)
     e_nom_classe = Entry(frame_détails, width=35, justify='left', relief="solid")
