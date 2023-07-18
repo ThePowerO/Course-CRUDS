@@ -407,6 +407,7 @@ def ajouter():
 
                 montrer_classes()
 
+                bouton_sauver1.destroy()
 
 
 
