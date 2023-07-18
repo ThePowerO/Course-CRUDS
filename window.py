@@ -383,6 +383,7 @@ def ajouter():
 
             e_nom_classe.insert(0, tree_liste[1])
             c_cours.insert(0, tree_liste[2])
+            e_date_initiale.insert(0, tree_liste[3])
 
 
 
