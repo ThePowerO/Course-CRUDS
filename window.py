@@ -365,6 +365,7 @@ def ajouter():
 
         crée_class(liste)
 
+        messagebox.showinfo("Succès", "Tu rempli tout avec succès")
 
 
     l_nom = Label(frame_détails, text="Nom du Classes:", font=("Ivy 10"), anchor=NW,height=1, bg=co1, fg=co4)
