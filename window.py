@@ -376,6 +376,7 @@ def ajouter():
     def update_classe():
         try:
             tree_itens = tree_classe.focus()
+            tree_dictionnaire = tree_classe.item(tree_itens)
 
 
 
