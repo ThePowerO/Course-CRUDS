@@ -89,7 +89,8 @@ def étudiants():
         c_classes.delete(0,END)
 
         montrer_étudiant()
-    
+
+    #Entrées d'Input
     l_nom = Label(frame_détails, text="Nom:", font=("Ivy 10"), anchor=NW,height=1, bg=co1, fg=co4)
     l_nom.place(x=4, y=10)
     e_nom = Entry(frame_détails, width=45, justify='left', relief="solid")
