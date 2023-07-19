@@ -180,7 +180,7 @@ def étudiants():
         app_nom = Label(frame_table, text="Tableau des estudantes", height=1,pady=0, padx=0, relief="flat", anchor=NW, font=('Ivy 10 bold'), bg=co1, fg=co4)
         app_nom.grid(row=0, column=0, padx=0, pady=10, sticky=NSEW)
 
-        list_header = ['id', 'Nome', 'email', 'Telefone','sexo', 'imagem', 'Data', 'CPF', 'Curso']
+        list_header = ['id', 'Nom', 'email', 'Telefone','sexo', 'imagem', 'Data', 'CPF', 'Curso']
 
         df_list = voir_étudiants()
 
