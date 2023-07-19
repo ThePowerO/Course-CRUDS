@@ -182,7 +182,7 @@ def étudiants():
 
         list_header = ['id', 'Nome', 'email', 'Telefone','sexo', 'imagem', 'Data', 'CPF', 'Curso']
 
-        df_list = []
+        df_list = voir_étudiants()
 
         global tree_étudiants
 
