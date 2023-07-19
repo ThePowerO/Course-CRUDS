@@ -63,6 +63,7 @@ def étudiants():
 
         nom = e_nom.get()
         email = e_email.get()
+        téléphone = e_téléphone.get()
 
 
 
