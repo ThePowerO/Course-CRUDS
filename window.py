@@ -70,6 +70,7 @@ def étudiants():
         cours = c_classes.get()
         image = image_string
 
+        liste = [nom, email, téléphone, genre, image, naissance, cpf, cours]
 
 
 
