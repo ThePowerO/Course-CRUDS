@@ -121,7 +121,7 @@ def étudiants():
     e_cpf = Entry(frame_détails, width=20, justify='left', relief="solid")
     e_cpf.place(x=450, y=100)
 
-    les_classes = ["Classe A Python", "Classe B HTML"]
+    les_classes = voir_étudiants()
     classe = []
 
     for i in les_classes:
