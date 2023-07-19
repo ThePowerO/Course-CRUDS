@@ -88,6 +88,7 @@ def étudiants():
         e_cpf.delete(0,END)
         c_classes.delete(0,END)
 
+        montrer_étudiant()
 
 
 
