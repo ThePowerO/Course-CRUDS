@@ -71,7 +71,8 @@ def étudiants():
         image = image_string
 
         liste = [nom, email, téléphone, genre, image, naissance, cpf, cours]
-        
+
+        #Vérifier si une entrée est vide
         for i in liste:
             if i == "":
                 messagebox.showerror("Erreur", "Il faut remplir l'espace")
