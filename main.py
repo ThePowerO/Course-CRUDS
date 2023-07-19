@@ -41,7 +41,7 @@ try:
         email TEXT,
         téléphone TEXT,
         genre TEXT,
-        image TEXT
+        image TEXT,
         date_naissance DATE,
         cpf TEXT,
         class_nom TEXT,
