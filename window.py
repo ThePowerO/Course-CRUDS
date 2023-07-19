@@ -71,6 +71,7 @@ def étudiants():
         image = image_string
 
         liste = [nom, email, téléphone, genre, image, naissance, cpf, cours]
+        for i in liste:
 
 
 
