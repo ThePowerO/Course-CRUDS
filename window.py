@@ -65,6 +65,7 @@ def étudiants():
         email = e_email.get()
         téléphone = e_téléphone.get()
         genre = c_sexe.get()
+        naissance = date_naissance.get()
 
 
 
