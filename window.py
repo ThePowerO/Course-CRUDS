@@ -83,6 +83,7 @@ def étudiants():
 
         e_nom.delete(0,END)
         e_email.delete(0,END)
+        c_sexe.delete(0,END)
 
 
 
