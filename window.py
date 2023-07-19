@@ -82,6 +82,7 @@ def étudiants():
         messagebox.showinfo("Succès", "Tu rempli tout avec succès")
 
         e_nom.delete(0,END)
+        e_email.delete(0,END)
 
 
 
