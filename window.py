@@ -86,6 +86,7 @@ def étudiants():
         c_sexe.delete(0,END)
         date_naissance.delete(0,END)
         e_cpf.delete(0,END)
+        c_classes.delete(0,END)
 
 
 
