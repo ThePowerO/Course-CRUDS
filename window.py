@@ -77,6 +77,7 @@ def étudiants():
                 messagebox.showerror("Erreur", "Il faut remplir l'espace")
                 return
 
+        créer_étudiants(liste)
 
 
 
