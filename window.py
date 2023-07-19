@@ -62,6 +62,7 @@ def étudiants():
         global image, image_string, l_image
 
         nom = e_nom.get()
+        email = e_email.get()
 
 
 
