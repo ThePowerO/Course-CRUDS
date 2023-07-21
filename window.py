@@ -103,6 +103,7 @@ def étudiants():
             valeur_id = tree_liste[0]
 
             #Nettoyage des entrées
+            e_nom.delete(0,END)
 
 
     #Création d'Entrées
