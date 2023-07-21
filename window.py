@@ -171,6 +171,7 @@ def étudiants():
             messagebox.showerror("Erreur", "Sélectionnez l'un des étudients du tableau")
 
     def delete_étudiants():
+        try:
 
 
     #Création d'Entrées
