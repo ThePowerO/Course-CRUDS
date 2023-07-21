@@ -93,6 +93,7 @@ def étudiants():
         montrer_étudiant()
 
     def actualisér_étudiants():
+        global image, image_string, l_image
 
 
     #Création d'Entrées
