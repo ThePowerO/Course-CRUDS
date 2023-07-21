@@ -96,6 +96,7 @@ def étudiants():
         global image, image_string, l_image
 
         try:
+            tree_itens = tree_étudiants.focus()
 
 
     #Création d'Entrées
