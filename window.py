@@ -95,6 +95,8 @@ def étudiants():
     def actualisér_étudiants():
         global image, image_string, l_image
 
+        try:
+
 
     #Création d'Entrées
     l_nom = Label(frame_détails, text="Nom:", font=("Ivy 10"), anchor=NW,height=1, bg=co1, fg=co4)
