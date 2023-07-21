@@ -114,6 +114,7 @@ def étudiants():
             e_nom.insert(0,tree_liste[1])
             e_email.insert(0,tree_liste[2])
             e_téléphone.insert(0,tree_liste[3])
+            c_sexe.insert(0,tree_liste[4])
 
 
     #Création d'Entrées
