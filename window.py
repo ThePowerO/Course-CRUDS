@@ -135,6 +135,7 @@ def étudiants():
                 téléphone = e_téléphone.get()
                 genre = c_sexe.get()
                 naissance = date_naissance.get()
+                cpf = e_cpf.get()
 
 
     #Création d'Entrées
