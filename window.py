@@ -125,6 +125,7 @@ def étudiants():
             image = Image.open(image)
             image = image.resize((130,130))
             image = ImageTk.PhotoImage(image)
+            l_image = Label(frame_détails, image=image, bg=co1, fg=co4)
 
 
     #Création d'Entrées
