@@ -104,6 +104,7 @@ def étudiants():
 
             #Nettoyage des entrées
             e_nom.delete(0,END)
+            e_email.delete(0,END)
 
 
     #Création d'Entrées
