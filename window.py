@@ -116,6 +116,7 @@ def étudiants():
             e_téléphone.insert(0,tree_liste[3])
             c_sexe.insert(0,tree_liste[4])
             date_naissance.insert(0,tree_liste[6])
+            e_cpf.insert(0,tree_liste[7])
 
 
     #Création d'Entrées
