@@ -144,6 +144,7 @@ def étudiants():
                 #Vérifier si une entrée est vide
                 for i in liste:
                     if i == "":
+                        messagebox.showerror("Erreur", "Il faut remplir l'espace")
 
 
     #Création d'Entrées
