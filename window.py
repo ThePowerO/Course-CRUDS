@@ -139,6 +139,9 @@ def étudiants():
                 cours = c_classes.get()
                 image = image_string
 
+                liste = [nom, email, téléphone, genre, image, naissance, cpf, cours, valeur_id]
+
+
 
     #Création d'Entrées
     l_nom = Label(frame_détails, text="Nom:", font=("Ivy 10"), anchor=NW,height=1, bg=co1, fg=co4)
