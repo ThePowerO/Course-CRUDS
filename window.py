@@ -112,6 +112,7 @@ def étudiants():
             c_classes.delete(0,END)
             
             e_nom.insert(0,tree_liste[1])
+            e_email.insert(0,tree_liste[2])
 
 
     #Création d'Entrées
