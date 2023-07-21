@@ -136,6 +136,7 @@ def étudiants():
                 genre = c_sexe.get()
                 naissance = date_naissance.get()
                 cpf = e_cpf.get()
+                cours = c_classes.get()
 
 
     #Création d'Entrées
