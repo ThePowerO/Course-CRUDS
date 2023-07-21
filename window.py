@@ -172,6 +172,7 @@ def étudiants():
 
     def delete_étudiants():
         try:
+            tree_itens = tree_étudiants.focus()
 
 
     #Création d'Entrées
