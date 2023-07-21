@@ -120,6 +120,7 @@ def étudiants():
             c_classes.insert(0,tree_liste[8])
             
             image = tree_liste[5]
+            image_string = image
 
 
     #Création d'Entrées
