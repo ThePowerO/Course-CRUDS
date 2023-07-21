@@ -122,6 +122,8 @@ def étudiants():
             image = tree_liste[5]
             image_string = image
 
+            image = Image.open(image)
+
 
     #Création d'Entrées
     l_nom = Label(frame_détails, text="Nom:", font=("Ivy 10"), anchor=NW,height=1, bg=co1, fg=co4)
