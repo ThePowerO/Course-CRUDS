@@ -141,6 +141,7 @@ def étudiants():
 
                 liste = [nom, email, téléphone, genre, image, naissance, cpf, cours, valeur_id]
 
+                #Vérifier si une entrée est vide
 
 
     #Création d'Entrées
