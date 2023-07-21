@@ -130,6 +130,7 @@ def étudiants():
 
             def update():
 
+                nom = e_nom.get()
 
 
     #Création d'Entrées
