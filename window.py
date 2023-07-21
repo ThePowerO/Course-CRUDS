@@ -118,6 +118,8 @@ def étudiants():
             date_naissance.insert(0,tree_liste[6])
             e_cpf.insert(0,tree_liste[7])
             c_classes.insert(0,tree_liste[8])
+            
+            image = tree_liste[5]
 
 
     #Création d'Entrées
