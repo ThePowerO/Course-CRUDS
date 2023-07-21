@@ -131,6 +131,7 @@ def étudiants():
             def update():
 
                 nom = e_nom.get()
+                email = e_email.get()
 
 
     #Création d'Entrées
