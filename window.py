@@ -137,6 +137,7 @@ def étudiants():
                 naissance = date_naissance.get()
                 cpf = e_cpf.get()
                 cours = c_classes.get()
+                image = image_string
 
 
     #Création d'Entrées
