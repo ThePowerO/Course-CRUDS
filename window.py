@@ -110,6 +110,8 @@ def étudiants():
             date_naissance.delete(0,END)
             e_cpf.delete(0,END)
             c_classes.delete(0,END)
+            
+            e_nom.insert(0,tree_liste[1])
 
 
     #Création d'Entrées
