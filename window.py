@@ -123,6 +123,7 @@ def étudiants():
             image_string = image
 
             image = Image.open(image)
+            image = image.resize((130,130))
 
 
     #Création d'Entrées
