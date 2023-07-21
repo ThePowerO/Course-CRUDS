@@ -128,6 +128,9 @@ def étudiants():
             l_image = Label(frame_détails, image=image, bg=co1, fg=co4)
             l_image.place(x=300, y=10)
 
+            def update():
+
+
 
     #Création d'Entrées
     l_nom = Label(frame_détails, text="Nom:", font=("Ivy 10"), anchor=NW,height=1, bg=co1, fg=co4)
