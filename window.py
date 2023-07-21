@@ -170,7 +170,7 @@ def étudiants():
     bouton_sauver2 = Button(frame_détails, command=noveau_étudiants, anchor=CENTER, text="Sauver".upper(), width=9, overrelief=RIDGE, font=("Ivy 7 bold"), bg=co3, fg=co1)
     bouton_sauver2.place(x=627, y=110) 
 
-    bouton_update2 = Button(frame_détails, anchor=CENTER, text="Update".upper(), width=9, overrelief=RIDGE, font=("Ivy 7 bold"), bg=co6, fg=co1,)
+    bouton_update2 = Button(frame_détails, command=actualisér_étudiants, anchor=CENTER, text="Update".upper(), width=9, overrelief=RIDGE, font=("Ivy 7 bold"), bg=co6, fg=co1,)
     bouton_update2.place(x=627, y=135)
 
     bouton_supprimer2 = Button(frame_détails, anchor=CENTER, text="Supprimer".upper(), width=9, overrelief=RIDGE, font=("Ivy 7 bold"), bg=co7, fg=co1,)
