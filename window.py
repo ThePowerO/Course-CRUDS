@@ -174,6 +174,7 @@ def étudiants():
         try:
             tree_itens = tree_étudiants.focus()
             tree_dictionnaire = tree_étudiants.item(tree_itens)
+            tree_liste = tree_dictionnaire['values']
 
 
     #Création d'Entrées
