@@ -143,6 +143,7 @@ def étudiants():
 
                 #Vérifier si une entrée est vide
                 for i in liste:
+                    if i == "":
 
 
     #Création d'Entrées
