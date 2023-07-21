@@ -145,7 +145,30 @@ def étudiants():
                 for i in liste:
                     if i == "":
                         messagebox.showerror("Erreur", "Il faut remplir l'espace")
+                        return
+            
+                update_étudiants(liste)
 
+                messagebox.showinfo("Succès", "Les donnés ont été à mise avec succès")
+
+                #Nettoyage des entrées
+                e_nom.delete(0,END)
+                e_email.delete(0,END)
+                e_téléphone.delete(0,END)
+                c_sexe.delete(0,END)
+                date_naissance.delete(0,END)
+                e_cpf.delete(0,END)
+                c_classes.delete(0,END)
+            
+                montrer_étudiant()
+
+                bouton_sauver3.destroy()
+
+            bouton_sauver3 = Button(frame_détails, command=update, anchor=CENTER, text="Sauver".upper(), width=9, overrelief=RIDGE, font=("Ivy 7 bold"), bg=co3, fg=co1)
+            bouton_sauver3.place(x=727, y=130)
+
+        except IndexError:
+            messagebox.showerror("Erreur", "Sélectionnez l'un des étudients du tableau")
 
     #Création d'Entrées
     l_nom = Label(frame_détails, text="Nom:", font=("Ivy 10"), anchor=NW,height=1, bg=co1, fg=co4)
