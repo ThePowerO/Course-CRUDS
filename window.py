@@ -184,6 +184,8 @@ def étudiants():
 
             montrer_étudiant()
 
+        except IndexError:
+
 
     #Création d'Entrées
     l_nom = Label(frame_détails, text="Nom:", font=("Ivy 10"), anchor=NW,height=1, bg=co1, fg=co4)
