@@ -180,6 +180,7 @@ def étudiants():
 
             supprimer_étudiants([valeur_id])
 
+            messagebox.showinfo("Succès", "Vous avez supprimé l'étudient avec succès")
 
 
 
