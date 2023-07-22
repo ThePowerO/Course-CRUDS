@@ -182,6 +182,7 @@ def étudiants():
 
             messagebox.showinfo("Succès", "Vous avez supprimé l'étudient avec succès")
 
+            montrer_étudiant()
 
 
     #Création d'Entrées
